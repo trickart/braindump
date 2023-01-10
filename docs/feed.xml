@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-01-11T00:15:21+09:00</updated><id>/feed.xml</id><title type="html">braindump</title><subtitle>自分の頭の中をdumpするための場所</subtitle><entry><title type="html">braindump始めた</title><link href="/intro/2023/01/10/start-braindump.html" rel="alternate" type="text/html" title="braindump始めた" /><published>2023-01-10T23:52:59+09:00</published><updated>2023-01-10T23:52:59+09:00</updated><id>/intro/2023/01/10/start-braindump</id><content type="html" xml:base="/intro/2023/01/10/start-braindump.html">&lt;h1 id=&quot;どうでもいいことが書きたい&quot;&gt;どうでもいいことが書きたい&lt;/h1&gt;
+&lt;p&gt;技術的なこと&lt;strong&gt;以外&lt;/strong&gt;を書きたくなったので作った。
+(技術的なことはQiitaやZennもしくはそれ単体のブログにしたいため)&lt;/p&gt;
+
+&lt;p&gt;基本的に頭の中でぐるぐる考えていることを吐き出す場所なのでbraindumpと名付けた。&lt;/p&gt;
+
+&lt;p&gt;ついでにSwift(やObjective-C)以外の言語とかそれらを使ったツール、Web系技術の実験台として静的コンテンツが欲しくなったというのもある。&lt;/p&gt;
+
+&lt;p&gt;気が済むまで続けるつもり&lt;/p&gt;</content><author><name></name></author><category term="intro" /><summary type="html">どうでもいいことが書きたい 技術的なこと以外を書きたくなったので作った。 (技術的なことはQiitaやZennもしくはそれ単体のブログにしたいため)</summary></entry></feed>
