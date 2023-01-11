@@ -1,0 +1,17 @@
+#!/bin/sh
+
+FILE_NAME="`date '+%Y-%m-%d'`-${1}.md"
+ISO8601_DATE=$(date '+%Y-%m-%d %H:%M:%S %z')
+
+touch dump/_posts/$FILE_NAME
+
+echo \
+"---
+layout: post
+title:  \"${1}\"
+date:   ${ISO8601_DATE}
+category: dump
+---
+" > dump/_posts/$FILE_NAME
+
+code dump/_posts/$FILE_NAME
