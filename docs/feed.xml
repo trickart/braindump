@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="/braindump/feed.xml" rel="self" type="application/atom+xml" /><link href="/braindump/" rel="alternate" type="text/html" /><updated>2023-01-11T23:42:03+09:00</updated><id>/braindump/feed.xml</id><title type="html">braindump</title><subtitle>自分の頭の中をdumpするための場所</subtitle><entry><title type="html">やる気がない</title><link href="/braindump/dump/2023/01/11/lost-motivation.html" rel="alternate" type="text/html" title="やる気がない" /><published>2023-01-11T22:43:21+09:00</published><updated>2023-01-11T22:43:21+09:00</updated><id>/braindump/dump/2023/01/11/lost-motivation</id><content type="html" xml:base="/braindump/dump/2023/01/11/lost-motivation.html">&lt;h1 id=&quot;昔はやる気があったように思う&quot;&gt;昔はやる気があった…ように思う&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="/braindump/feed.xml" rel="self" type="application/atom+xml" /><link href="/braindump/" rel="alternate" type="text/html" /><updated>2023-01-12T23:01:08+09:00</updated><id>/braindump/feed.xml</id><title type="html">braindump</title><subtitle>自分の頭の中をdumpするための場所</subtitle><entry><title type="html">プログラマは趣味でコードを書くぐらいじゃないとつらいのか？</title><link href="/braindump/dump/2023/01/12/programmers-qualities.html" rel="alternate" type="text/html" title="プログラマは趣味でコードを書くぐらいじゃないとつらいのか？" /><published>2023-01-12T19:46:30+09:00</published><updated>2023-01-12T19:46:30+09:00</updated><id>/braindump/dump/2023/01/12/programmers-qualities</id><content type="html" xml:base="/braindump/dump/2023/01/12/programmers-qualities.html">&lt;h1 id=&quot;残念ながら現在はそう&quot;&gt;残念ながら現在はそう&lt;/h1&gt;
+&lt;p&gt;Twitterを始めとしたネットではよく「プログラマとして食っていくには趣味で休日もコード書くくらいじゃないと」といった言葉がささやかれる。&lt;/p&gt;
+
+&lt;p&gt;個人的には残念ながらこれはある程度正しいと感じている。&lt;br /&gt;
+“ある程度”と言うのはコードは書かないにしても、「技術に関して日常的に触れているタイプじゃないとつらいだろう」という感覚があるためだ。&lt;/p&gt;
+
+&lt;p&gt;IT業界でも「仕事は仕事。家に帰ったらパソコンなんて見たくない。」という人もいることはいる。&lt;br /&gt;
+ただ、このタイプの人はよほど優秀であるか、つらそうに仕事をしているように見えるかのどちらかという感覚がある。&lt;br /&gt;
+(もちろんこれが自分の偏見・観測範囲の問題である可能性は少なくない)&lt;/p&gt;
+
+&lt;p&gt;好きでもないものを仕事にするにしては、プログラミングというジャンルは好きでやってる奴が多すぎるのではないか？&lt;br /&gt;
+(プログラマ以外にも、スポーツ選手とかもこういった傾向にあるように思う。)&lt;/p&gt;
+
+&lt;h1 id=&quot;ただ今後はどうなるかはわからない&quot;&gt;ただ、今後はどうなるかはわからない&lt;/h1&gt;
+&lt;p&gt;一方で、今後その傾向は変わっていくのかもしれないとも思っている。&lt;/p&gt;
+
+&lt;p&gt;なぜならソフトウェアの需要は今まで増えることはあっても減ることはなく、今後も増え続けるだろうことが予想されるためだ。&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://a16z.com/2011/08/20/why-software-is-eating-the-world/&quot;&gt;Software is eating the world&lt;/a&gt;などといった言葉もある通り、ソフトウェアが他の職種の仕事を奪うのならば、ソフトウェアエンジニア・プログラマと呼ばれる職業の割合は増えるだろう。&lt;/p&gt;
+
+&lt;p&gt;そうなれば、業界はプログラミング愛好家ではない人をどんどん受け入れていかなければならないだろう。その時「趣味でコード書くくらいじゃないと」と言っていられるだろうか？&lt;/p&gt;
+
+&lt;h1 id=&quot;仕事でプログラミングをする人が増えたとき&quot;&gt;仕事でプログラミングをする人が増えたとき&lt;/h1&gt;
+&lt;p&gt;前述のような状況になったとき、「休日にプログラミングの勉強ぐらいしたら？」と発言したら「サービス残業を要求するのか？非常識だ」と総スカンになるかもしれない。自分はその時どう向き合えばいいのだろうか？&lt;/p&gt;
+
+&lt;p&gt;少なくとも業務時間中にみっちり研修して戦力になるまで育成することは避けられなくなるだろう。&lt;br /&gt;
+しかしそうなってきたときに &lt;strong&gt;「興味ない人間に業務ができるレベルのプログラミングを教えることは可能なのか？」&lt;/strong&gt; という問題が出てくる。&lt;/p&gt;
+
+&lt;p&gt;今のところ、勝手に育ってきた(と少なくとも思っている)自分はこの問題に対する答えを持ち合わせていない。&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;「AIによってプログラマの仕事が奪われるのでは？」という説もあるが、個人的には完全に奪われることはなく、周辺の仕事がいくらでもあるだろうと思っている。これについてもいずれ吐き出したい。 &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="dump" /><summary type="html">残念ながら現在はそう Twitterを始めとしたネットではよく「プログラマとして食っていくには趣味で休日もコード書くくらいじゃないと」といった言葉がささやかれる。</summary></entry><entry><title type="html">やる気がない</title><link href="/braindump/dump/2023/01/11/lost-motivation.html" rel="alternate" type="text/html" title="やる気がない" /><published>2023-01-11T22:43:21+09:00</published><updated>2023-01-11T22:43:21+09:00</updated><id>/braindump/dump/2023/01/11/lost-motivation</id><content type="html" xml:base="/braindump/dump/2023/01/11/lost-motivation.html">&lt;h1 id=&quot;昔はやる気があったように思う&quot;&gt;昔はやる気があった…ように思う&lt;/h1&gt;
 &lt;p&gt;小さかった頃、人に比べてよく本を読む子供だった。&lt;br /&gt;
 下校途中歩きながら本を読んでいたら学校の先生に怒られた。1000ページぐらいあるハリーポッターの最終巻上下を借り、一週間で読み切ったリもした。&lt;/p&gt;
 
