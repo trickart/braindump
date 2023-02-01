@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>マルチプラットフォームなGUIフレームワーク触りたくない | braindump</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="マルチプラットフォームなGUIフレームワーク触りたくない" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Flutterとかあんま関わりたくないなぁという話 一言で言えばこれではあるんだけど。 一体いくつのGUI Frameworkが現れては消えていったんだろうか。Xamarin、Cordova、Ionic…" />
+<meta property="og:description" content="Flutterとかあんま関わりたくないなぁという話 一言で言えばこれではあるんだけど。 一体いくつのGUI Frameworkが現れては消えていったんだろうか。Xamarin、Cordova、Ionic…" />
+<link rel="canonical" href="/braindump/dump/2023/02/01/i-dont-like-multi-platform-gui-framework.html" />
+<meta property="og:url" content="/braindump/dump/2023/02/01/i-dont-like-multi-platform-gui-framework.html" />
+<meta property="og:site_name" content="braindump" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-02-01T18:30:00+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="マルチプラットフォームなGUIフレームワーク触りたくない" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-02-01T18:30:00+09:00","datePublished":"2023-02-01T18:30:00+09:00","description":"Flutterとかあんま関わりたくないなぁという話 一言で言えばこれではあるんだけど。 一体いくつのGUI Frameworkが現れては消えていったんだろうか。Xamarin、Cordova、Ionic…","headline":"マルチプラットフォームなGUIフレームワーク触りたくない","mainEntityOfPage":{"@type":"WebPage","@id":"/braindump/dump/2023/02/01/i-dont-like-multi-platform-gui-framework.html"},"url":"/braindump/dump/2023/02/01/i-dont-like-multi-platform-gui-framework.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/braindump/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/braindump/feed.xml" title="braindump" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/braindump/">braindump</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/braindump/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">マルチプラットフォームなGUIフレームワーク触りたくない</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2023-02-01T18:30:00+09:00" itemprop="datePublished">Feb 1, 2023
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="flutterとかあんま関わりたくないなぁという話">Flutterとかあんま関わりたくないなぁという話</h1>
+<p>一言で言えばこれではあるんだけど。<br />
+一体いくつのGUI Frameworkが現れては消えていったんだろうか。Xamarin、Cordova、Ionic…</p>
+
+<p>いや消えてわけではないかもしれないが、しかし「現在どれだけの人が話題にし、新たに学ぶ人が出てきたか？」を考えると非常に厳しい状態であることは変わらないのではないか？</p>
+
+<p>そんな状態でFlutterだのReact Nativeだの言われても真面目に向き合う気になれないのはただの老化なのだろうか？</p>
+
+<h1 id="apple自らがサポートしない限り継続性が怪しい">Apple自らがサポートしない限り継続性が怪しい</h1>
+<p>まぁこれが理由の8割ぐらいを締めているわけだが。</p>
+
+<p>iOSアプリを作ってると毎年メジャーアップデートで何かが壊れる。そのたびに自分たちのコードを直したりする傍らで動かなくなったライブラリのアップデートをしたり、更新が途絶えたやつだったら捨てて自前で再実装したりしている。</p>
+
+<p>ちょっとした賽の河原のような場所で暮らしているiOSアプリ開発者たちは、メジャーアップデートに備えてなるべくライブラリは使いたがらないし、使ったとしても「いざとなったら自分で作れる・直せるな」と思える範囲のライブラリを採用する傾向があるように思う。<br />
+(ライブラリがMITライセンスでソースコードが公開されているものばかりというのもこういった事情が影響しているのかもしれない)</p>
+
+<p>一部の機能のためのライブラリでこの体たらく。これがGUI Frameworkだったらどう対処すればいいのか正直検討がつかない。</p>
+
+<p>その点でFlutterは他よりちょっとマシかもしれない。なんたってGoogleが作ってるからAndroidのことは比較的安心できるのではないか。<br />
+と書いてて思ったが様々なサービスをバッサリ切り捨てるGoogleを信用するべきではない気もしてきた。</p>
+
+<p>まぁともかくもう片方であるAppleがサポートしないものである以上、厳しいことには変わらないはずだ。</p>
+
+<h1 id="キャリアが不透明になりがち">キャリアが不透明になりがち</h1>
+
+<p>技術としての継続性に疑問符がつくため、プログラマーとしてのキャリアをどうするかを考慮しなければならないだろう。</p>
+
+<p>「iOSアプリ開発を10年やってました」という人はそこそこの数いるだろう。だが「〇〇(何らかのMultiplatform GUI Framework)のアプリ開発を10年やってました」という人がどれだけいるだろうか？</p>
+
+<p>まぁ終わったら終わったで別の仕事をしようと割り切るという人もいるかも知れないが、そんな人ばかりではないのではないか？</p>
+
+<h1 id="iosとandroidでuiを共通化してメリットを享受できるのは経営者">iOSとAndroidでUIを共通化してメリットを享受できるのは経営者</h1>
+<p>まず、ユーザーのためにはならない。なぜならほとんどのユーザーはiPhoneかAndroidのどちらかしか持っておらず、もう片方と一致していることはユーザーにとってなんの利点もない。<br />
+(公平性の観点から共通のUIであることがユーザーに利する例として、ゲームがこれに該当する。今回ゲームやUnityについては語らない)</p>
+
+<p>むしろ、プラットフォーム固有のデザインと異なることでユーザーに混乱をもたらす可能性すらある。</p>
+
+<p>開発者も一見楽になるかと思いきや、そうとも限らない。</p>
+
+<p>共通化出来ると言っても、プラットフォーム固有の機能を使う際はそのプラットフォームの手順に従う必要がある。例えばBluetoothを使用しようとしたときの権限取得フローがiOSとAndroidで異なっていたりする。</p>
+
+<p>こういったときUIを共通化しようとすると結構難しく、最大公約数的・冗長な形になりがちである。</p>
+
+<p>ユーザーは損をする、開発者は得したり損したりするとなったとき、メリットを十分に享受できるのは経営者・プロジェクト責任者だろう。<br />
+経営者・プロジェクト責任者として関わるのなら悪くないのかもしれないが、一開発者としては関わらないで済むならそうしたい。</p>
+
+<h1 id="プラットフォームネイティブなモバイルアプリの仕事を続けたい">プラットフォームネイティブなモバイルアプリの仕事を続けたい</h1>
+<p>ユーザーには多少デメリットがあるが会社にとって短期的には時間的・金銭的に得な手段をとるというのはつまり、「あまりモバイルアプリに投資されない環境」ということなのかもしれない。</p>
+
+<p>そうなると、「儲かってるメガベンチャーに行くのが正しいのでは？」という身も蓋もない話になる気がしてきた。最悪すぎる。</p>
+
+  </div><a class="u-url" href="/braindump/dump/2023/02/01/i-dont-like-multi-platform-gui-framework.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/braindump/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">braindump</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">braindump</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/trickart"><svg class="svg-icon"><use xlink:href="/braindump/assets/minima-social-icons.svg#github"></use></svg> <span class="username">trickart</span></a></li><li><a href="https://www.twitter.com/trickart4121"><svg class="svg-icon"><use xlink:href="/braindump/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">trickart4121</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>自分の頭の中をdumpするための場所</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

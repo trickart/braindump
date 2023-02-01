@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="/braindump/feed.xml" rel="self" type="application/atom+xml" /><link href="/braindump/" rel="alternate" type="text/html" /><updated>2023-01-12T23:01:08+09:00</updated><id>/braindump/feed.xml</id><title type="html">braindump</title><subtitle>自分の頭の中をdumpするための場所</subtitle><entry><title type="html">プログラマは趣味でコードを書くぐらいじゃないとつらいのか？</title><link href="/braindump/dump/2023/01/12/programmers-qualities.html" rel="alternate" type="text/html" title="プログラマは趣味でコードを書くぐらいじゃないとつらいのか？" /><published>2023-01-12T19:46:30+09:00</published><updated>2023-01-12T19:46:30+09:00</updated><id>/braindump/dump/2023/01/12/programmers-qualities</id><content type="html" xml:base="/braindump/dump/2023/01/12/programmers-qualities.html">&lt;h1 id=&quot;残念ながら現在はそう&quot;&gt;残念ながら現在はそう&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="/braindump/feed.xml" rel="self" type="application/atom+xml" /><link href="/braindump/" rel="alternate" type="text/html" /><updated>2023-02-01T18:37:38+09:00</updated><id>/braindump/feed.xml</id><title type="html">braindump</title><subtitle>自分の頭の中をdumpするための場所</subtitle><entry><title type="html">マルチプラットフォームなGUIフレームワーク触りたくない</title><link href="/braindump/dump/2023/02/01/i-dont-like-multi-platform-gui-framework.html" rel="alternate" type="text/html" title="マルチプラットフォームなGUIフレームワーク触りたくない" /><published>2023-02-01T18:30:00+09:00</published><updated>2023-02-01T18:30:00+09:00</updated><id>/braindump/dump/2023/02/01/i-dont-like-multi-platform-gui-framework</id><content type="html" xml:base="/braindump/dump/2023/02/01/i-dont-like-multi-platform-gui-framework.html">&lt;h1 id=&quot;flutterとかあんま関わりたくないなぁという話&quot;&gt;Flutterとかあんま関わりたくないなぁという話&lt;/h1&gt;
+&lt;p&gt;一言で言えばこれではあるんだけど。&lt;br /&gt;
+一体いくつのGUI Frameworkが現れては消えていったんだろうか。Xamarin、Cordova、Ionic…&lt;/p&gt;
+
+&lt;p&gt;いや消えてわけではないかもしれないが、しかし「現在どれだけの人が話題にし、新たに学ぶ人が出てきたか？」を考えると非常に厳しい状態であることは変わらないのではないか？&lt;/p&gt;
+
+&lt;p&gt;そんな状態でFlutterだのReact Nativeだの言われても真面目に向き合う気になれないのはただの老化なのだろうか？&lt;/p&gt;
+
+&lt;h1 id=&quot;apple自らがサポートしない限り継続性が怪しい&quot;&gt;Apple自らがサポートしない限り継続性が怪しい&lt;/h1&gt;
+&lt;p&gt;まぁこれが理由の8割ぐらいを締めているわけだが。&lt;/p&gt;
+
+&lt;p&gt;iOSアプリを作ってると毎年メジャーアップデートで何かが壊れる。そのたびに自分たちのコードを直したりする傍らで動かなくなったライブラリのアップデートをしたり、更新が途絶えたやつだったら捨てて自前で再実装したりしている。&lt;/p&gt;
+
+&lt;p&gt;ちょっとした賽の河原のような場所で暮らしているiOSアプリ開発者たちは、メジャーアップデートに備えてなるべくライブラリは使いたがらないし、使ったとしても「いざとなったら自分で作れる・直せるな」と思える範囲のライブラリを採用する傾向があるように思う。&lt;br /&gt;
+(ライブラリがMITライセンスでソースコードが公開されているものばかりというのもこういった事情が影響しているのかもしれない)&lt;/p&gt;
+
+&lt;p&gt;一部の機能のためのライブラリでこの体たらく。これがGUI Frameworkだったらどう対処すればいいのか正直検討がつかない。&lt;/p&gt;
+
+&lt;p&gt;その点でFlutterは他よりちょっとマシかもしれない。なんたってGoogleが作ってるからAndroidのことは比較的安心できるのではないか。&lt;br /&gt;
+と書いてて思ったが様々なサービスをバッサリ切り捨てるGoogleを信用するべきではない気もしてきた。&lt;/p&gt;
+
+&lt;p&gt;まぁともかくもう片方であるAppleがサポートしないものである以上、厳しいことには変わらないはずだ。&lt;/p&gt;
+
+&lt;h1 id=&quot;キャリアが不透明になりがち&quot;&gt;キャリアが不透明になりがち&lt;/h1&gt;
+
+&lt;p&gt;技術としての継続性に疑問符がつくため、プログラマーとしてのキャリアをどうするかを考慮しなければならないだろう。&lt;/p&gt;
+
+&lt;p&gt;「iOSアプリ開発を10年やってました」という人はそこそこの数いるだろう。だが「〇〇(何らかのMultiplatform GUI Framework)のアプリ開発を10年やってました」という人がどれだけいるだろうか？&lt;/p&gt;
+
+&lt;p&gt;まぁ終わったら終わったで別の仕事をしようと割り切るという人もいるかも知れないが、そんな人ばかりではないのではないか？&lt;/p&gt;
+
+&lt;h1 id=&quot;iosとandroidでuiを共通化してメリットを享受できるのは経営者&quot;&gt;iOSとAndroidでUIを共通化してメリットを享受できるのは経営者&lt;/h1&gt;
+&lt;p&gt;まず、ユーザーのためにはならない。なぜならほとんどのユーザーはiPhoneかAndroidのどちらかしか持っておらず、もう片方と一致していることはユーザーにとってなんの利点もない。&lt;br /&gt;
+(公平性の観点から共通のUIであることがユーザーに利する例として、ゲームがこれに該当する。今回ゲームやUnityについては語らない)&lt;/p&gt;
+
+&lt;p&gt;むしろ、プラットフォーム固有のデザインと異なることでユーザーに混乱をもたらす可能性すらある。&lt;/p&gt;
+
+&lt;p&gt;開発者も一見楽になるかと思いきや、そうとも限らない。&lt;/p&gt;
+
+&lt;p&gt;共通化出来ると言っても、プラットフォーム固有の機能を使う際はそのプラットフォームの手順に従う必要がある。例えばBluetoothを使用しようとしたときの権限取得フローがiOSとAndroidで異なっていたりする。&lt;/p&gt;
+
+&lt;p&gt;こういったときUIを共通化しようとすると結構難しく、最大公約数的・冗長な形になりがちである。&lt;/p&gt;
+
+&lt;p&gt;ユーザーは損をする、開発者は得したり損したりするとなったとき、メリットを十分に享受できるのは経営者・プロジェクト責任者だろう。&lt;br /&gt;
+経営者・プロジェクト責任者として関わるのなら悪くないのかもしれないが、一開発者としては関わらないで済むならそうしたい。&lt;/p&gt;
+
+&lt;h1 id=&quot;プラットフォームネイティブなモバイルアプリの仕事を続けたい&quot;&gt;プラットフォームネイティブなモバイルアプリの仕事を続けたい&lt;/h1&gt;
+&lt;p&gt;ユーザーには多少デメリットがあるが会社にとって短期的には時間的・金銭的に得な手段をとるというのはつまり、「あまりモバイルアプリに投資されない環境」ということなのかもしれない。&lt;/p&gt;
+
+&lt;p&gt;そうなると、「儲かってるメガベンチャーに行くのが正しいのでは？」という身も蓋もない話になる気がしてきた。最悪すぎる。&lt;/p&gt;</content><author><name></name></author><category term="dump" /><summary type="html">Flutterとかあんま関わりたくないなぁという話 一言で言えばこれではあるんだけど。 一体いくつのGUI Frameworkが現れては消えていったんだろうか。Xamarin、Cordova、Ionic…</summary></entry><entry><title type="html">プログラマは趣味でコードを書くぐらいじゃないとつらいのか？</title><link href="/braindump/dump/2023/01/12/programmers-qualities.html" rel="alternate" type="text/html" title="プログラマは趣味でコードを書くぐらいじゃないとつらいのか？" /><published>2023-01-12T19:46:30+09:00</published><updated>2023-01-12T19:46:30+09:00</updated><id>/braindump/dump/2023/01/12/programmers-qualities</id><content type="html" xml:base="/braindump/dump/2023/01/12/programmers-qualities.html">&lt;h1 id=&quot;残念ながら現在はそう&quot;&gt;残念ながら現在はそう&lt;/h1&gt;
 &lt;p&gt;Twitterを始めとしたネットではよく「プログラマとして食っていくには趣味で休日もコード書くくらいじゃないと」といった言葉がささやかれる。&lt;/p&gt;
 
 &lt;p&gt;個人的には残念ながらこれはある程度正しいと感じている。&lt;br /&gt;
