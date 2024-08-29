@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="/braindump/feed.xml" rel="self" type="application/atom+xml" /><link href="/braindump/" rel="alternate" type="text/html" /><updated>2023-02-01T18:37:38+09:00</updated><id>/braindump/feed.xml</id><title type="html">braindump</title><subtitle>自分の頭の中をdumpするための場所</subtitle><entry><title type="html">マルチプラットフォームなGUIフレームワーク触りたくない</title><link href="/braindump/dump/2023/02/01/i-dont-like-multi-platform-gui-framework.html" rel="alternate" type="text/html" title="マルチプラットフォームなGUIフレームワーク触りたくない" /><published>2023-02-01T18:30:00+09:00</published><updated>2023-02-01T18:30:00+09:00</updated><id>/braindump/dump/2023/02/01/i-dont-like-multi-platform-gui-framework</id><content type="html" xml:base="/braindump/dump/2023/02/01/i-dont-like-multi-platform-gui-framework.html">&lt;h1 id=&quot;flutterとかあんま関わりたくないなぁという話&quot;&gt;Flutterとかあんま関わりたくないなぁという話&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="/braindump/feed.xml" rel="self" type="application/atom+xml" /><link href="/braindump/" rel="alternate" type="text/html" /><updated>2024-08-29T17:10:09+09:00</updated><id>/braindump/feed.xml</id><title type="html">braindump</title><subtitle>自分の頭の中をdumpするための場所</subtitle><entry><title type="html">バックオフィスメンバーへの感謝</title><link href="/braindump/dump/2024/08/29/gratitude-to-back-office.html" rel="alternate" type="text/html" title="バックオフィスメンバーへの感謝" /><published>2024-08-29T16:38:45+09:00</published><updated>2024-08-29T16:38:45+09:00</updated><id>/braindump/dump/2024/08/29/gratitude-to-back-office</id><content type="html" xml:base="/braindump/dump/2024/08/29/gratitude-to-back-office.html">&lt;h1 id=&quot;会社員かフリーランスか&quot;&gt;会社員か？フリーランスか？&lt;/h1&gt;
+
+&lt;p&gt;ソフトウェアエンジニアとして糊口をしのぐとき、自分で事業を立ち上げないのであれば選択肢は大きく分けて会社員かフリーランスのどちらかになる思う。&lt;/p&gt;
+
+&lt;p&gt;ソフトウェアエンジニア界隈ではどっちがいいか？という話題が延々続いているが、「自分はフリーランスは無理だなぁ」と感じている。&lt;/p&gt;
+
+&lt;p&gt;というのも、どうしても事務仕事といったものが苦手だからである。&lt;/p&gt;
+
+&lt;h1 id=&quot;書類はかけないなくす存在を忘れる&quot;&gt;書類はかけない、なくす、存在を忘れる&lt;/h1&gt;
+
+&lt;p&gt;どうしても事務仕事というのが苦手である。思えば小学生の頃から夏休みの宿題を溜め続けて最後の数日になって焦るということを繰り返していた。&lt;br /&gt;
+(そのせいで自分にとって24時間テレビという番組のイメージは夏休みの宿題だ。テレビの横で毎年うんうん唸りながら問題集を解いていた)&lt;/p&gt;
+
+&lt;p&gt;フリーランスは一人で開発・経理・その他事務作業をやらなくてはいけない。それがフリーランスの大変さであり、自由さでもあると思う。&lt;/p&gt;
+
+&lt;p&gt;それに引き換え会社員は開発以外の業務のほとんどを総務・経理といったバックオフィスメンバーがやってくれている。これほど感謝することはない。&lt;/p&gt;
+
+&lt;h1 id=&quot;情シス担当者にも感謝&quot;&gt;情シス担当者にも感謝&lt;/h1&gt;
+
+&lt;p&gt;今勤めている会社の情シスは開発部の事を理解して寛大に取り計らってくれている。&lt;br /&gt;
+ISMSの取得のために色々引き締めなければ行けないにも関わらず、開発メンバーが快適に仕事に取り組めるよう開発部の自主性を認めてくれている。&lt;br /&gt;
+(ソフトウェアインストール申請書など書かなくてもいいのは非常にありがたい)&lt;/p&gt;
+
+&lt;p&gt;問題が起こったときに責任を取らなければ行けない情シスからしたらガチガチに固めてしまってもいいのに、わざわざ手間ひまかけてこちらの事を考えてくれている。&lt;br /&gt;
+感謝しなければ罰が当たるだろう。&lt;/p&gt;
+
+&lt;h1 id=&quot;思いやって接していきたい&quot;&gt;思いやって接していきたい&lt;/h1&gt;
+
+&lt;p&gt;こんなに丁寧に接してくださっているのだから自分も思いやって接していかなくてはいけないな…と日々感じる。&lt;br /&gt;
+現実問題、今出来ているかは正直怪しいがこの気持ちを忘れたくないなと思っている。&lt;/p&gt;</content><author><name></name></author><category term="dump" /><summary type="html">会社員か？フリーランスか？</summary></entry><entry><title type="html">マルチプラットフォームなGUIフレームワーク触りたくない</title><link href="/braindump/dump/2023/02/01/i-dont-like-multi-platform-gui-framework.html" rel="alternate" type="text/html" title="マルチプラットフォームなGUIフレームワーク触りたくない" /><published>2023-02-01T18:30:00+09:00</published><updated>2023-02-01T18:30:00+09:00</updated><id>/braindump/dump/2023/02/01/i-dont-like-multi-platform-gui-framework</id><content type="html" xml:base="/braindump/dump/2023/02/01/i-dont-like-multi-platform-gui-framework.html">&lt;h1 id=&quot;flutterとかあんま関わりたくないなぁという話&quot;&gt;Flutterとかあんま関わりたくないなぁという話&lt;/h1&gt;
 &lt;p&gt;一言で言えばこれではあるんだけど。&lt;br /&gt;
 一体いくつのGUI Frameworkが現れては消えていったんだろうか。Xamarin、Cordova、Ionic…&lt;/p&gt;
 
